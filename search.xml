@@ -14,6 +14,6 @@
   <entry>
     <title><![CDATA[hexo + github = blogs]]></title>
     <url>%2F2017%2F05%2F31%2Fhexo%2F</url>
-    <content type="text"><![CDATA[在老弟Ceil Ni的大力支持下，完成了博客的搭建。自己天资愚笨上手比较慢，大家将就着看哈！ 前期猥琐发育（安装各种环境哈！） 1、安装node.js 2、安装git 3、添加github账号 4、安装hexo 中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！） 1、关联hexo与github 2、发布你的第一篇博文 3、选择主题（开始装修啦！） 4、总结 安装node.js1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
+    <content type="text"><![CDATA[在老弟Ceil Ni的大力支持下，完成了博客的搭建。自己天资愚笨上手比较慢，大家将就着看哈！ 前期猥琐发育 1、安装node.js 2、安装git 3、添加github账号 4、安装hexo 中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！） 1、关联hexo与github 2、发布你的第一篇博文 3、选择主题（开始装修啦！） 4、总结 安装node.jsnode的安装很简单的，查看node、npm版本号：12$ node -v$ npm -v 安装git安装git，查看git版本 1$ git --version 添加github账号注册github并创建仓库 安装hexo创建一个文件夹（这里直接创建一个名为hexo的文件夹)，cmd进入到hexo文件夹中输入一下命令：12npm install -g hexo-clinpm install hexo --save 安装好后，查看hexo版本号：1hexo -v]]></content>
   </entry>
 </search>
