@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2017-06-13T09:57:32.000Z</updated>
+  <updated>2017-06-15T10:10:11.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -17,15 +17,15 @@
   
   <entry>
     <title>hexo + github = blogs</title>
-    <link href="http://yoursite.com/2017/06/12/hexo/"/>
-    <id>http://yoursite.com/2017/06/12/hexo/</id>
-    <published>2017-06-12T10:16:13.000Z</published>
-    <updated>2017-06-13T09:57:32.000Z</updated>
+    <link href="http://yoursite.com/2017/06/15/hexo/"/>
+    <id>http://yoursite.com/2017/06/15/hexo/</id>
+    <published>2017-06-15T09:56:07.000Z</published>
+    <updated>2017-06-15T10:10:11.000Z</updated>
     
-    <content type="html"><![CDATA[<p>在老弟<a href="http://www.cielni.com/" target="_blank" rel="external">Ceil Ni</a>的大力支持下，完成了博客的搭建。自己天资愚笨上手比较慢，大家将就着看哈！</p>
+    <content type="html"><![CDATA[<p>hexo是一款基于Node.js的静态博客框架</p>
 <h3 id="前期猥琐发育"><a href="#前期猥琐发育" class="headerlink" title="前期猥琐发育"></a>前期猥琐发育</h3><p> 1、安装node.js<br> 2、安装git<br> 3、添加github账号<br> 4、安装hexo</p>
-<h3 id="中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）"><a href="#中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）" class="headerlink" title="中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）"></a>中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）</h3><p> 1、关联hexo与github<br> 2、发布你的第一篇博文<br> 3、选择主题（开始装修啦！）<br> 4、总结</p>
-<hr>
+<h3 id="中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）"><a href="#中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）" class="headerlink" title="中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）"></a>中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）</h3><hr>
+<p> 1、关联hexo与github<br> 2、发布你的第一篇博文<br> 3、选择主题（开始装修啦！）<br> 4、使用自己的域名</p>
  <a id="more"></a>
 <h3 id="安装node-js"><a href="#安装node-js" class="headerlink" title="安装node.js"></a>安装node.js</h3><p><a href="http://www.runoob.com/nodejs/nodejs-install-setup.html" target="_blank" rel="external">node的安装</a>很简单的，查看node、npm版本号：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">node -v</div><div class="line">npm -v</div></pre></td></tr></table></figure></p>
 <h3 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h3><p><a href="http://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/00137396287703354d8c6c01c904c7d9ff056ae23da865a000" target="_blank" rel="external">安装git</a>，查看git版本<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git --version</div></pre></td></tr></table></figure></p>
@@ -38,21 +38,33 @@
 <p><strong>接下来我没来试试是否hexo是否安装成功：</strong><br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo s -debug  #启动本地的服务器，在浏览器中输入http://localhost:4000/,如果能正常打开说明你已经成功一大半了</div></pre></td></tr></table></figure></p>
 <p>其实呢，我们现在就可以写开始写我们的第一篇博客了，那我们从hello world开始吧，哈哈<br>博客呢，其实是写在.md后缀的文本里面然后部署上去。<br>首先我们先创建一个markdown的文件，进入到hexo文件夹中：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo new helloworld</div></pre></td></tr></table></figure></p>
 <p>你看到：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">wadedeMac-mini:hexo wade$ hexo new helloworld</div><div class="line">INFO  Created: ~/Desktop/hexo/source/_posts/helloworld.md</div></pre></td></tr></table></figure></p>
-<p>发现source/_posts/目录下多了helloworld.md 文件，我们用markdown编辑器打开此文件并编辑（不过你需要熟悉简单的markdown语法，这里推荐一款方便快捷的编辑器<a href="https://www.zybuluo.com/mdedito），不过现在我们可以在上面随便敲几个字：hello" target="_blank" rel="external">https://www.zybuluo.com/mdedito），不过现在我们可以在上面随便敲几个字：hello</a> world就可以了。这样我们的第一篇博客就写完了。刷新页面<a href="http://localhost:4000/页面你会发现刚才的文章出现在了页面上（是不是很嗨森！）" target="_blank" rel="external">http://localhost:4000/页面你会发现刚才的文章出现在了页面上（是不是很嗨森！）</a></p>
+<p>发现source/_posts/目录下多了helloworld.md 文件，我们用markdown编辑器打开此文件并编辑（不过你需要熟悉简单的markdown语法，这里推荐一款方便快捷的编辑器<a href="https://www.zybuluo.com/mdedito）" target="_blank" rel="external">https://www.zybuluo.com/mdedito）</a> ，不过现在我们可以在上面随便敲几个字：hello world就可以了。这样我们的第一篇博客就写完了。刷新页面<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a> 页面你会发现刚才的文章出现在了页面上（是不是很嗨森！）</p>
 <p><em>好的，第一篇文章写完了，那么别人都看不到啊，看不到怎么装13，这时候就要关联之前注册的github账号了，她会帮我们生成网页链接</em></p>
 <h3 id="关联github"><a href="#关联github" class="headerlink" title="关联github"></a>关联github</h3><p>先安装一个拓展：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">npm install hexo-deployer-git --save  #这里用到的npm就是我们之前  npm install 时安装的</div></pre></td></tr></table></figure></p>
 <p>打开hexo文件下面的_config.yml文件<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div></pre></td><td class="code"><pre><div class="line"># Deployment（部署）</div><div class="line">## Docs: https://hexo.io/docs/deployment.html</div><div class="line">deploy:</div><div class="line">  type: git</div><div class="line">  repo: git@github.com:wadewow/wadewow.github.io.git</div><div class="line">  branch: master</div></pre></td></tr></table></figure></p>
-<p>repo的值替换成你你自己github上的仓库名<br>完成设置后，本地的hexo就和远程仓库关联起来了，但是我们还将我们的hexo部署到远程仓库上：</p>
-<pre><code>hexo d -g
-</code></pre><p>这样我们本地的hexo就部署到了github上，可以去github仓库上查看相关的代码。访问<a href="https://wadewow.github.io,就能线上访问我们的博客啦！" target="_blank" rel="external">https://wadewow.github.io,就能线上访问我们的博客啦！</a></p>
-<h3 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h3>]]></content>
+<p>repo的值替换成你你自己github上的仓库名<br>完成设置后，本地的hexo就和远程仓库关联起来了，但是我们还将我们的hexo部署到远程仓库上：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo d -g</div></pre></td></tr></table></figure></p>
+<p>这样我们本地的hexo就部署到了github上，可以去github仓库上查看相关的代码。访问 <a href="https://wadewow.github.io" target="_blank" rel="external">https://wadewow.github.io</a>  就能线上访问我们的博客啦！</p>
+<h3 id="主题安装"><a href="#主题安装" class="headerlink" title="主题安装"></a>主题安装</h3><p>所谓主题安装就是选择我们想要的装修风格，其实我们刚搭建好的时候就已经有默认的主题了，在/hexo/themes下的landscape就是我们默认的主题类型。但是不是很好看，我们可以到<a href="https://hexo.io/themes/" target="_blank" rel="external">Themes - Hexo </a>下载喜欢的主题。我们现在已NexT主题为例。进入到hexo目录下面下载主题：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</div></pre></td></tr></table></figure></p>
+<p>将<strong><em>站点配置文件_config.yml</em></strong>修改为：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">theme: next</div></pre></td></tr></table></figure></p>
+<p>修改成后，再次打开本地的调试<a href="http://localhost:4000/" target="_blank" rel="external">http://localhost:4000/</a>  查看时候安装成功！</p>
+<p>安装成功后，页面可能还是功能还有些单调，如果想添加更多功能请参考<a href="http://theme-next.iissnan.com/" target="_blank" rel="external">NexT使用文档</a></p>
+<h3 id="使用自己的域名"><a href="#使用自己的域名" class="headerlink" title="使用自己的域名"></a>使用自己的域名</h3><p>1.购买域名<br>我的域名是在马云爸爸的<a href="https://wanwang.aliyun.com/" target="_blank" rel="external">万网</a>那花了我“50大洋/年”买的。</p>
+<p>2.设置 CNAME<br>在hexo目录下的 source 文件夹下，创建一个名称为 CNAME 的文件，内容为你的域名，比如我的是:<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">www.wadeqt.com</div></pre></td></tr></table></figure></p>
+<p><em>注意</em>： CNAME 文件是不带后缀的。另外带 www 和不带 www，虽然用户在访问的时候网页内容是一样的，但是搜索引擎却认为是两个网页，最好自己选择一个首选域。</p>
+<p>3.域名解析<br>就是将你购买的域名www.wadeqt.com与你的网址<a href="https://wadewow.github.io" target="_blank" rel="external">https://wadewow.github.io</a>  产生一一对应的关系（域名映射）。</p>
+<ul>
+<li>登录万网–&gt;控制台–&gt;云解析DNS，选择你的域名。</li>
+<li>按照下图的方式填写：<br><img src="http://od4phhdfp.bkt.clouddn.com/Domain.png" alt="something wrong"></li>
+</ul>
+<p><em>注意：</em>阿里云需要你实名制认证，大概等个工作日（反正我是登了三四天了）你就能通过你购买的新域名访问你的博客啦！<br><em>啦啦啦！希望这篇博文能够帮助到一些你，有任何疑问和不对的地方望多多指正！</em></p>
+]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;在老弟&lt;a href=&quot;http://www.cielni.com/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Ceil Ni&lt;/a&gt;的大力支持下，完成了博客的搭建。自己天资愚笨上手比较慢，大家将就着看哈！&lt;/p&gt;
+      &lt;p&gt;hexo是一款基于Node.js的静态博客框架&lt;/p&gt;
 &lt;h3 id=&quot;前期猥琐发育&quot;&gt;&lt;a href=&quot;#前期猥琐发育&quot; class=&quot;headerlink&quot; title=&quot;前期猥琐发育&quot;&gt;&lt;/a&gt;前期猥琐发育&lt;/h3&gt;&lt;p&gt; 1、安装node.js&lt;br&gt; 2、安装git&lt;br&gt; 3、添加github账号&lt;br&gt; 4、安装hexo&lt;/p&gt;
-&lt;h3 id=&quot;中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&quot;&gt;&lt;a href=&quot;#中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&quot; class=&quot;headerlink&quot; title=&quot;中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&quot;&gt;&lt;/a&gt;中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&lt;/h3&gt;&lt;p&gt; 1、关联hexo与github&lt;br&gt; 2、发布你的第一篇博文&lt;br&gt; 3、选择主题（开始装修啦！）&lt;br&gt; 4、总结&lt;/p&gt;
-&lt;hr&gt;
+&lt;h3 id=&quot;中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&quot;&gt;&lt;a href=&quot;#中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&quot; class=&quot;headerlink&quot; title=&quot;中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&quot;&gt;&lt;/a&gt;中期hexo的配置，选择主题（房子盖好了，就是各种装修哈！）&lt;/h3&gt;&lt;hr&gt;
+&lt;p&gt; 1、关联hexo与github&lt;br&gt; 2、发布你的第一篇博文&lt;br&gt; 3、选择主题（开始装修啦！）&lt;br&gt; 4、使用自己的域名&lt;/p&gt;
     
     </summary>
     
